@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-display: black;
+}
+    
+.common {
+    /* background-color: beige; */
+    background-color:lightblue;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1 px blue;
+}
+
+.left {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 18px;
+    border-right: solid 1px rebeccapurple
+}
